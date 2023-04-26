@@ -1,4 +1,6 @@
 <h1>Web and Mobile Technologies</h1>
+<h3>GitHub:</he>
+<a href="url">https://github.com/AkshayTakke/B9IS124_10623725_TravelVerse</a>
 
 <h2>TravelVerse Travel App</h2>
 
