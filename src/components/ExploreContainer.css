@@ -1,0 +1,562 @@
+.container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.title{
+  color: black;
+}
+
+
+.main_container{
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+.card{
+  background: white;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  height: 50px;
+  margin: 0;
+}
+
+ion-icon{
+  color: #1097d8;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+.border{
+  border: 1px solid #1097d8;
+  width: 100px;
+  border-radius: 12px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1097d8;
+  padding: 10px;
+
+
+}
+
+.card_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+
+@import 'swiper/css';
+@import 'swiper/css/autoplay';
+@import 'swiper/css/keyboard';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+@import 'swiper/css/zoom';
+@import '@ionic/react/css/ionic-swiper.css';
+
+
+.port{
+  object-fit: cover;
+  height: 350px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.pad{
+  padding: 0;
+}
+
+.swiper_card{
+  width: 100% !important;
+  margin: 0;
+  border-radius: 33px;
+}
+
+.swiper_main{
+  margin-top: 30px;
+}
+
+.shareicon{
+  position: absolute !important;
+  bottom: 20px;
+  color: white;
+  font-size: 50px;
+  right: 15px;
+  width: 30px;
+}
+
+
+
+
+
+
+
+.cat{
+  font-size: 15px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+/* more */
+
+
+
+.subtitle_txt {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+
+.location_name {
+  font-family: "inter medium";
+  font-size: 14px;
+  color: black;
+  margin-bottom: 0px;
+  margin-top: 4px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 170px;
+}
+
+.loader_txt{
+  font-family:'inter medium';
+  font-size: 16px;
+  color: black;
+ }
+ 
+
+.slide_css {
+  width: 150px !important;
+}
+
+.title_txt {
+  text-align: left;
+}
+
+.greeting_txt {
+  font-family: "inter medium";
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.color {
+  background: var(--ion-color-primary);
+  color: white !important;
+  border: 2px solid #55266f !important;
+}
+
+.color1 {
+  color: white !important;
+}
+
+.house_txt {
+  font-family: "inter medium";
+  font-size: 14px;
+  color: var(--ion-color-primary);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.btn_house {
+  width: 100%;
+  border: 2px solid #d4d4d4;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin-left: 6px;
+}
+
+.explore-img {
+  height: 208px !important;
+  object-fit: cover !important;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.explore-background {
+  background: white;
+  box-shadow: none;
+  width: 100%;
+  margin-left: 0%;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+ion-button.back_btn {
+  --background: rgb(84, 79, 75, 0.4);
+  --border-radius: 20px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 40px;
+  height: 40px;
+  --background-activated: transparent;
+  --background-hover: transparent;
+}
+
+.card-content {
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.in-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-family: "inter bold";
+  color: black;
+  font-size: 16px !important;
+  white-space: nowrap;
+}
+
+.email-text {
+  text-align: left;
+  font-family: "inter regular";
+  margin-top: 3px;
+  color: #7a7a7a;
+  font-size: 13px !important;
+}
+
+.text-wrap {
+  width: 69%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.proper {
+  --background: #e5e5e5;
+}
+
+.product_img {
+  width: 90%;
+  height: 100px;
+  margin-left: 5%;
+  margin-top: 7px;
+  object-fit: cover;
+}
+
+.slides_cat {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0%;
+}
+
+.productSlide_img {
+  width: 100% !important;
+  margin: auto;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 120px !important;
+}
+
+.product_card {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 215px;
+  height: 224px;
+}
+
+
+.slide {
+  cursor: pointer !important;
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-left: -12px !important;
+}
+
+.name {
+  text-align: center;
+  color: var(--ion-color-primary);
+  font-family: "inter medium";
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 63px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.price {
+  font-family: "inter bold";
+  color: var(--ion-color-primary);
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.rating_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: white;
+  margin-top: 7px;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 44px;
+  height: 17px;
+}
+
+.rat {
+  font-family: "inter regular";
+  font-size: 11px;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aprt_name {
+  font-family: inter bold;
+  color: black;
+  font-size: 16px;
+  text-align: start;
+  margin-left: 9px;
+  margin-top: 0;
+}
+
+.card_data {
+  margin-left: 1px;
+  width: 70%;
+  margin-top: 4px;
+}
+
+.locate_icon {
+  color: var(--ion-color-primary);
+}
+
+.ago {
+  font-size: 11px;
+  font-family: "inter regular";
+  color: black;
+  padding-left: 3px;
+  width: 150px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.appart {
+  border: 1px solid var(--ion-color-primary);
+  border-radius: 20px;
+  width: auto;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 6px;
+}
+
+.locate {
+  display: flex;
+  align-items: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -13px;
+  margin-bottom: 5px;
+}
+
+.lab {
+  font-family: "inter bold" !important;
+  font-size: 16px !important;
+}
+
+
+.main_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 59%;
+  margin-left: 14px;
+}
+
+.product_img1 {
+  width: 100px;
+  border-radius: 12px 0px 0px 12px;
+  object-fit: cover;
+  height: 100px; 
+
+}
+
+.adress {
+  font-family: "inter regular";
+  font-size: 11px;
+  margin-top: -6px;
+  margin-bottom: 4px;
+  width: 98%;
+}
+
+ion-card{
+  background: white;
+  margin-top: 20px;
+}
+
+.img_div {
+  width: 85px;
+}
+
+.rating_div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background: white;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-left: -49px;
+  width: 44px;
+  height: 17px;
+}
+
+.rat {
+  font-family: "inter regular";
+  font-size: 11px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.name_ap {
+  font-family: "inter bold";
+  font-size: 14px;
+  color: black;
+  margin-top: 8px;
+}
+
+.check {
+  font-family: " inter regular";
+  font-size: 12px;
+  margin-left: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.show_cat{
+  color: black;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.manger {
+  font-family: "inter bold";
+  font-size: 15px;
+  color: black;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.detail {
+  font-family: "inter regular";
+  font-size: 15px;
+  color: black;
+  margin-left: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.des {
+  font-family: "inter regular";
+  font-size: 15px;
+  color: black;
+  margin-right: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bottom_line {
+  border-bottom: 1px solid #dcdcdc;
+  margin-top: 15px;
+}
+
+
+
+.noti_circle{
+  background-color: red;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0px;
+}
+.subtitle_txt{
+  color:var(--ion-color-primary);
+  font-family:"inter medium";
+  font-size: 17px;
+}
+
+
+
+
+

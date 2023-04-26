@@ -1,0 +1,48 @@
+/* login css */
+
+.btn_login{
+    margin-top: 50px;
+    width: 100%;
+    --background: #1097d8
+    ;
+ }
+
+.input{
+    --background: black;
+    margin-top: 20px;
+    border-radius: 12px;
+    
+ }
+
+ .label{
+    color: white !important;
+    font-size: 12px !important;
+ }
+
+ .head{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ ion-input{
+    height: 20px;
+ }
+
+
+ .main_container_login{
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.icn{
+    color: white;
+}
+.left{
+    margin-left: 12px !important;
+}
